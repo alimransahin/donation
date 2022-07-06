@@ -129,16 +129,20 @@ p {
     flex-wrap: wrap;
 }
 #news .img1{
-    width: 50%;
-    margin: 50px;
+    width: 47%;
+    margin: 1.5%;
     display: flex;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px
 }
 #news .img1 p{
-    width: 45%;
+    width: 50%;
     display: inline-block;
+    padding:1%;
 }
 #news .img1 img{
-    width: 45%;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
 }
 #subscription{
     padding: 5% 20%;
